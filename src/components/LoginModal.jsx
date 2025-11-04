@@ -63,7 +63,7 @@ const ModalBox = styled.div`
   border-radius: 12px;
   width: 100%;
   max-width: 400px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 16px rgba(89, 0, 255, 0.25);
 `;
 
 const Title = styled.h2`
@@ -81,12 +81,12 @@ const Form = styled.form`
 const Input = styled.input`
   padding: 0.75rem;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(141, 141, 141, 1);
   font-size: 1rem;
 `;
 
 const Button = styled.button`
-  background-color: #10b981;
+  background-color: #727a02ff;
   color: white;
   font-weight: 600;
   border: none;

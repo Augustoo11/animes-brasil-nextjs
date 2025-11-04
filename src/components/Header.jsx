@@ -13,13 +13,14 @@ export default function Header() {
     <>
       <HeaderContainer>
         <HeaderContent>
-          <Logo href="/">ADS Animes</Logo>
+          <Logo href="/">Análise e Desenvolvimento de Sistemas "Animes"</Logo>
 
           <Nav>
             <NavLink href="/">Home</NavLink>
             <NavLink href="/animes">Animes</NavLink>
             <NavLink href="/animes/novo">Cadastrar</NavLink>
-
+            <NavLink href="/animes/teste">Amigos</NavLink>
+            <NavLink href="/">Pesquisar</NavLink>
             <LoginButton onClick={() => setShowLogin(true)}>
               <FaUserCircle size={26} />
             </LoginButton>
@@ -34,7 +35,7 @@ export default function Header() {
 
 // 💅 Estilos do Header
 const HeaderContainer = styled.header`
-  background-color: #1e293b;
+  background-color: #5e5400ff;
   color: white;
   padding: 1rem 2rem;
   position: fixed;
@@ -59,7 +60,7 @@ const HeaderContent = styled.div`
 const Logo = styled(Link)`
   font-size: 1.5rem;
   font-weight: 700;
-  color: #10b981;
+  color: #ffffffff;
   text-decoration: none;
 
   &:hover {
